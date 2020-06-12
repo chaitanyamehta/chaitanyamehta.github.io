@@ -9,7 +9,7 @@
 <div class="fourteen wide column no-bottom">
   {% for entry in site.data.bio.education %}
 
-  <div class="ui grid">
+  <div class="ui grid stackable">
     <div class="twelve wide column no-bottom">
       <p class="ui no-bottom"><b>{{ entry.institution }}</b></p>
       <p class="ui no-bottom">{{ entry.studyType }}, {{ entry.area }}</p>
@@ -33,6 +33,7 @@
           {{ entry.endDate }}
         {% endif %}
       </b></p>
+      <p class="ui no-bottom">GPA: {{ entry.gpa }}</p>
     </div>
   </div>
 

@@ -9,7 +9,7 @@
   <div class="fourteen wide column no-bottom">
     {% for entry in site.data.bio.work %}
 
-    <div class="ui grid">
+    <div class="ui grid stackable">
       <div class="twelve wide column no-bottom">
         <p class="ui no-bottom"><b>{{ entry.position }}, {{ entry.company }}</b></p>
         <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://"
