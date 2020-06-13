@@ -1,5 +1,4 @@
 ---
-# published: false
 layout: project
 type: project
 image: images/optimizing-for-speed/jpeg-decoder.jpg
