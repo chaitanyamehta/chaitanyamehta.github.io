@@ -125,7 +125,6 @@
       "summary": "Added new features to a Lighting System Design application that allows users to visually place equipment on floor plan, configure, connect them, and then generate comprehensive reports like bill of material, connection diagrams, etc.",
       "highlights": [
         "Participate and contribute in design development.",
-        "Develop code along with its functional and unit test cases in an agile environment.",
         "Perform code and design reviews.",
         "Fix bugs, debug and resolve memory and performance issues.",
         "Create proof of concepts for new and high-risk features.",
@@ -159,7 +158,7 @@
         "Developed code along with their test cases and documentation in an agile environment.",
         "Added new WPF GUI screens and elements to support new workflows.",
         "Added new devices and their properties in the app database.",
-        "Refactored direct calls to 3rd party zip library into an interface driven adapter class, to make replacing the library easier.",
+        "Refactored direct calls to 3rd party zip library into an interface driven adapter class, to make library replacement easier.",
         "Developed an internal application using Jira API to generate worklog report for current sprint."
       ]
     }
