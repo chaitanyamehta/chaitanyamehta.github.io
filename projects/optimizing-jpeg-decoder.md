@@ -8,8 +8,8 @@ permalink: projects/optimizing-jpeg-decoder
 date: 2020-03-06
 labels:
   - C
-  - picoJPEG
   - Embedded Systems
+  - picoJPEG
   - Cortex M0+
 summary: Achieved 4.8x improvement in execution time of program which decodes and displays on LCD all jpeg images in the root directory of a μSD card.
 ---
