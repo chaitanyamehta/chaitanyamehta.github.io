@@ -105,7 +105,8 @@
       ]
     },
     {
-      "institution": "Institute of Technology and Management (now NCU)",
+      "institution": "The NorthCap University (formerly ITM University)",
+      "location": "Gurgaon, India",
       "area": "Electronics and Communication Engineering",
       "studyType": "Bachelor of Technology",
       "startDate": "Aug 2011",
@@ -173,7 +174,7 @@
     {
       "title": "Bronze Medal",
       "date": "Dec 2015",
-      "awarder": "Institute of Technology and Management",
+      "awarder": "ITM University",
       "summary": "Was awarded bronze medal for securing 3rd Rank in Electronics and Communication (Bachelor's of Technology) batch 2011-2015."
     }
   ]
