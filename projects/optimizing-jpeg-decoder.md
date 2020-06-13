@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: images/optimizing-for-speed/jpeg-decoder.jpg
-title: Optimizing for Speed
+image: images/optimizing-jpeg-decoder-for-speed/jpeg-decoder.jpg
+title: Optimizing JPEG Decoder for Speed
 permalink: projects/optimizing-jpeg-decoder
 # All dates must be YYYY-MM-DD format!
 date: 2020-03-06
@@ -14,8 +14,8 @@ labels:
 summary: Achieved 4.8x improvement in execution time of program which decodes and displays on LCD all jpeg images in the root directory of a μSD card.
 ---
 <div class="ui small rounded images">
-  <img class="ui image" src="/images/optimizing-for-speed/profile-before.jpg" alt="Profile Before Optimization">
-  <img class="ui image" src="/images/optimizing-for-speed/profile-after.jpg" alt="Profile After Optimization">
+  <img class="ui image" src="/images/optimizing-jpeg-decoder-for-speed/profile-before.jpg" alt="Profile Before Optimization">
+  <img class="ui image" src="/images/optimizing-jpeg-decoder-for-speed/profile-after.jpg" alt="Profile After Optimization">
 </div>
 
 The goal of this project was to reduce execution time of a program which reads JPEG images from the root directory of μSD card (formatted as FAT32), decodes them and then displays the image on 320x240 pixel LCD.
