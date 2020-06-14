@@ -9,7 +9,7 @@
   <div class="content">
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
-      <span class="date">{{ include.page.date }}</span>
+      <span class="date">{{ include.page.date | date: "%b %-d, %Y" }}</span>
     </div>
 
     <div class="description">
