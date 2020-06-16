@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/performance-analysis-of-programming-languages/language-logos.png
-title: Performance of Languages on Raspberry Pi
+title: Performance Analysis of Languages on Raspberry Pi
 permalink: projects/performance-analysis-of-programming-languages
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-28
@@ -33,7 +33,7 @@ The total execution time of each benchmark was recorded with the governor in on-
 ## Monitoring CPU Frequency and Temperature
 An additional program was written using python and matplotlib to measure CPU frequency and Temperature while the benchmarks ran. This was also used to check whether the CPU thermal throttled in any benchmark.
 
-### Frequency and Temperature while running C++ benchmarks
+### Frequency and Temperature while running C/C++ benchmarks
 **On-Demand**
 <img class="ui huge rounded image" src="/images/performance-analysis-of-programming-languages/frequency-temperature-C++-on-demand.png" alt="CPU frequency and temperature during C++ benchmark | Governor On-Demand">
 CPU frequency is dynamic and is adjusted based on utilization. The benchmark started after the 20 time mark and ran for 1.76 seconds. We can see a slight increase in temperature and bump in frequency when the test ran.
