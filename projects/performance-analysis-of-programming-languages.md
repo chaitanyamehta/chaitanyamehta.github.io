@@ -35,13 +35,13 @@ An additional program was written using python and matplotlib to measure CPU fre
 
 ### Frequency and Temperature while running C++ benchmarks
 **On-Demand**
-<img class="ui large rounded image" src="/images/performance-analysis-of-programming-languages/frequency-temperature-C++-on-demand.png" alt="CPU frequency and temperature during C++ benchmark | Governor On-Demand">
+<img class="ui huge rounded image" src="/images/performance-analysis-of-programming-languages/frequency-temperature-C++-on-demand.png" alt="CPU frequency and temperature during C++ benchmark | Governor On-Demand">
 CPU frequency is dynamic and is adjusted based on utilization. The benchmark started after the 20 time mark and ran for 1.76 seconds. We can see a slight increase in temperature and bump in frequency when the test ran.
 
 **Performance**
-<img class="ui large rounded image" src="/images/performance-analysis-of-programming-languages/frequency-temperature-C++-performance.png" alt="CPU frequency and temperature during C++ benchmark | Governor Performance">
+<img class="ui huge rounded image" src="/images/performance-analysis-of-programming-languages/frequency-temperature-C++-performance.png" alt="CPU frequency and temperature during C++ benchmark | Governor Performance">
 CPU frequency is fixed at 1.5 GHz. The benchmark started at 17.5 mark and ran for 1.74 seconds.
 
 **Powersave**
-<img class="ui large rounded image" src="/images/performance-analysis-of-programming-languages/frequency-temperature-C++-powersave.png" alt="CPU frequency and temperature during C++ benchmark | Governor Powersave">
+<img class="ui huge rounded image" src="/images/performance-analysis-of-programming-languages/frequency-temperature-C++-powersave.png" alt="CPU frequency and temperature during C++ benchmark | Governor Powersave">
 CPU frequency is fixed at 600 MHz. The benchmark started at 27.5 mark and ran for 4.36 seconds.
