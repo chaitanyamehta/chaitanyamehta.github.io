@@ -140,7 +140,7 @@
       "endDate": "Mar 2018",
       "summary": "",
       "highlights": [
-        "Developed new ReportFlowDocument based product report.",
+        "Developed ReportFlowDocument based product reports.",
         "Added support for generating QR codes from web links.",
         "Used ASP.NET web API to create RESTful web service.",
         "Worked with AutoCAD 2017 to add new device blocks to dxf files.",
@@ -157,7 +157,7 @@
       "summary": "",
       "highlights": [
         "Developed code along with their test cases and documentation in an agile environment.",
-        "Added new WPF GUI screens and elements to support new workflows.",
+        "Added WPF GUI view, view models and elements to support new workflows.",
         "Added new devices and their properties in the app database.",
         "Refactored direct calls to 3rd party zip library into an interface driven adapter class, to make library replacement easier.",
         "Developed an internal application using Jira API to generate worklog report for current sprint."
