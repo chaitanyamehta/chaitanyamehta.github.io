@@ -5,6 +5,7 @@ url: "https://chaitanyamehta.github.io"
 baseurl: ""
 
 bio-page-label: Resume
+about-page-label: About
 
 theme-home: theme-home-builtin-1.html
 theme-projects: theme-projects-builtin-1.html
