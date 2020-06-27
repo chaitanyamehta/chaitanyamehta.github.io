@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Me
-permalink: about
+permalink: about/
 ---
 
 <img class="ui fluid centered small circular image" src="{{ site.data.bio.basics.picture }}" />
