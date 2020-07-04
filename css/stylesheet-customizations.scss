@@ -3,21 +3,18 @@
 ---
 
 // Put your custom CSS here if you want to override the defaults.
-// Here are some common customizations for colors
 
-// Customize the background color
-body {
-  // background-color: #f2f2f2;;
+body.pushable > .pusher {
+  background-color: #f2f2f2;
 }
 
-// Customize the menubar color
+.ui.cards {
+  margin: 0;
+}
+
+// Customize the menubar
 .ui.menu {
   border-radius: 0;
-}
-
-// Customize the home page icon colors
-.icon-color {
-  // color: silver;
 }
 
 // Make Pre Scrollable
@@ -25,3 +22,14 @@ pre {
   overflow: auto;
 }
 
+@media only screen and (min-width: 768px) {
+  .ui.menu[class*= "mobile only"] {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.menu[class*= "mobile hidden"] {
+    display: none !important;
+  }
+}

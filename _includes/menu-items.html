@@ -1,0 +1,13 @@
+{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
+{% assign num_essays = essay_pages.size %}
+{% assign num_projects = project_pages.size %}
+
+{% if num_projects > 0 %}
+<a href="{{ site.baseurl }}/projects" class="item">Projects ({{ num_projects }})</a>
+{% endif %}
+{% if num_essays > 0 %}
+<a href="{{ site.baseurl }}/essays" class="item">Essays ({{ num_essays }})</a>
+{% endif %}
+<a href="{{ site.baseurl }}/bio" class="item">{{ site.bio-page-label }}</a>
+<a href="{{ site.baseurl }}/about" class="item">{{ site.about-page-label }}</a>

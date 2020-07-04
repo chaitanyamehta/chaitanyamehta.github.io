@@ -1,13 +1,11 @@
 ---
-layout: default
+layout: navigation
 ---
 
 {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
-
-{% include menubar.html active="" %}
 
 <div style="padding-top: 20px" class="ui container ">
   <p>I'm sorry, that URL could not be found. Perhaps you were looking for one of the following:</p>
