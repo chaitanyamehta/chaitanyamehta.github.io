@@ -6,9 +6,11 @@
 // Default CSS.
 // Don't edit this file.  Put your changes in stylesheet-customizations.scss
 
+@import "global-variables";
+
 // Default background color
 body {
-  background-color: #f2f2f2;
+  background-color: $background-color;
 }
 
 // Default menubar color
