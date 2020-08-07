@@ -30,13 +30,15 @@
   "interests": [
     {
       "name": "Software Development",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Embedded Systems",
-      "keywords": [
-      ]
+      "keywords": []
+    },
+    {
+      "name": "Computer Architecture",
+      "keywords": []
     }
   ],
   "skills": [
@@ -47,10 +49,33 @@
         "C",
         "C++",
         "Python",
-        "Assembly",
-        "Verilog",
         "C#",
-        "SQL"
+        "SQL",
+        "Assembly",
+        "Verilog"
+      ]
+    },
+    {
+      "name": "Software Profilers",
+      "level": "",
+      "keywords": [
+        "Perf",
+        "GProf",
+        "dotTrace",
+        "Redgate ANTS"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "Git",
+        "Jira",
+        "Ghidra (Reverse Engineering)",
+        "GNU Make",
+        "GCC",
+        "Visual Studio",
+        "Keil uVision"
       ]
     },
     {
@@ -64,26 +89,14 @@
       ]
     },
     {
-      "name": "Tools",
-      "level": "",
-      "keywords": [
-        "Keil uVision",
-        "Git",
-        "Perf",
-        "Ghidra (Reverse Engineering)",
-        "GNU Make",
-        "Jira"
-      ]
-    },
-    {
       "name": "Others",
       "level": "",
       "keywords": [
-        "Linux",
+        "Agile Methadologies",
         "Object-Oriented Design Patterns",
-        "Cortex M0+",
-        "Raspberry Pi",
-        "AD2 Logic Analyze"
+        "Data Structures",
+        "Linux",
+        "Raspberry Pi"
       ]
     }
   ],
@@ -96,10 +109,10 @@
       "endDate": "Present",
       "gpa": "4",
       "courses": [
+        "Compilers",
         "Embedded System Architecture",
         "Embedded System Optimization",
         "Embedded Linux",
-        "Compilers",
         "ASIC and FPGA Design",
         "Microprocessor Architecture"
       ]
@@ -112,8 +125,7 @@
       "startDate": "Aug 2011",
       "endDate": "May 2015",
       "gpa": "9.41/10",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "work": [
@@ -125,10 +137,10 @@
       "endDate": "Jun 2019",
       "summary": "Added new features to a Lighting System Design application that allows users to visually place equipment on floor plan, configure, connect them, and then generate comprehensive reports like bill of material, connection diagrams, etc.",
       "highlights": [
-        "Participated and contributed in design development discussions.",
-        "Performed first level code and functional reviews.",
-        "Used memory and performance analyzers to fix crashes and improve application experience.",
+        "Contributed to software design of application.",
+        "Used memory and performance analyzers to improve application experience.",
         "Worked on proof of concepts for new and high-risk features.",
+        "Performed code and functional reviews.",
         "Mentored junior members."
       ]
     },
@@ -141,9 +153,10 @@
       "summary": "",
       "highlights": [
         "Developed printable product reports using ReportFlowDocument.",
-        "Added support for generating QR codes from web links.",
-        "Used ASP.NET web API to create RESTful web client for functionalities like validating devices and getting room templates.",
-        "Worked with AutoCAD 2017 to add new device blocks to dxf files.",
+        "Used ASP.NET web API to create a client for consuming RESTful services.",
+        "Mocked web services for use in test cases using NSubstitute framework.",
+        "Consumed third party libraries to support things like generating QR codes, exporting views to pdf, etc.",
+        "Used AutoCAD to create and alter blocks in dxf files.",
         "Worked on bug-fixes and support issues."
       ]
     },
@@ -155,8 +168,8 @@
       "endDate": "Aug 2016",
       "summary": "",
       "highlights": [
-        "Developed code along with their test cases and documentation in an agile environment.",
-        "Added WPF views, view models and elements to support new workflows.",
+        "Developed code along with its functional and unit test cases in an agile environment.",
+        "Designed and coded UI views and view models using WPF.",
         "Added new devices and their properties in the app database.",
         "Refactored direct calls to 3rd party zip library into an interface driven adapter class, to make library replacement easier.",
         "Developed an internal application using Jira API to generate worklog report for current sprint."
