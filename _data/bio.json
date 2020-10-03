@@ -48,8 +48,9 @@
       "keywords": [
         "C",
         "C++",
-        "Python",
         "C#",
+        "Ruby on Rails",
+        "Python",
         "SQL",
         "Assembly",
         "Verilog"
@@ -92,8 +93,8 @@
       "name": "Others",
       "level": "",
       "keywords": [
-        "Agile Methadologies",
-        "Object-Oriented Design Patterns",
+        "Agile Methodologies",
+        "Design Patterns",
         "Data Structures",
         "Linux",
         "Raspberry Pi"
@@ -103,18 +104,21 @@
   "education": [
     {
       "institution": "North Carolina State University",
-      "area": "Computer Engineering (expected Spring, 2021)",
+      "area": "Computer Engineering",
       "studyType": "Master of Science",
       "startDate": "Aug 2019",
-      "endDate": "Present",
-      "gpa": "4",
+      "endDate": "May 2021",
+      "gpa": "4.0",
       "courses": [
+        "Object-Oriented Design and Development",
+        "Operating Systems Design",
         "Compilers",
         "Embedded System Architecture",
         "Embedded System Optimization",
         "Embedded Linux",
         "ASIC and FPGA Design",
-        "Microprocessor Architecture"
+        "Microprocessor Architecture",
+        "Architecture of Parallel Computers"
       ]
     },
     {
@@ -135,7 +139,7 @@
       "website": "",
       "startDate": "Apr 2018",
       "endDate": "Jun 2019",
-      "summary": "Added new features to a Lighting System Design application that allows users to visually place equipment on floor plan, configure, connect them, and then generate comprehensive reports like bill of material, connection diagrams, etc.",
+      "summary": "Enhanced a Lighting System Design application that allows users to visually place equipment on floor plan, configure, connect them, and then generate comprehensive reports like bill of material, connection diagrams, etc.",
       "highlights": [
         "Contributed to software design of application.",
         "Used memory and performance analyzers to improve application experience.",
@@ -168,8 +172,8 @@
       "endDate": "Aug 2016",
       "summary": "",
       "highlights": [
-        "Developed code along with its functional and unit test cases in an agile environment.",
-        "Designed and coded UI views and view models using WPF.",
+        "Partook in project management, development, and agile/scrum processes.",
+        "Work on a full stack development project, utilizing .NET framework.",
         "Added new devices and their properties in the app database.",
         "Refactored direct calls to 3rd party zip library into an interface driven adapter class, to make library replacement easier.",
         "Developed an internal application using Jira API to generate worklog report for current sprint."
