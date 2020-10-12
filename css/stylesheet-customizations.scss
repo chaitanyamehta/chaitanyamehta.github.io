@@ -24,6 +24,23 @@ pre {
   overflow: auto;
 }
 
+.ui.cover.image {
+  height: 100px;
+  overflow: hidden;
+  margin-top: 1em;  
+  border-radius: 0.28571429rem 0.28571429rem 0 0;
+  -webkit-box-shadow: 0px 1px 3px 0px #D4D4D5, 0px 0px 0px 1px #D4D4D5;
+  box-shadow: 0px 1px 3px 0px #D4D4D5, 0px 0px 0px 1px #D4D4D5;
+  -webkit-transition: -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: box-shadow 0.1s ease, transform 0.1s ease;
+  transition: box-shadow 0.1s ease, transform 0.1s ease, -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+}
+
+.ui.cover.image ~ .ui.card {
+  border-radius: 0 0 0.28571429rem 0.28571429rem;
+}
+
 @media only screen and (min-width: 768px) {
   .ui.menu[class*= "mobile only"] {
     display: none !important;
