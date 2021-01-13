@@ -133,7 +133,7 @@ As predicted the compare, branch and negate instructions are replaced with a sin
 *	Initial program run time: 765.864663 ms
 *	Program run time of optimized code: 705.022373 ms
 
-## Reduce calls to fmodf
+### Reduce calls to fmodf
 
 Perf report and annotate before applying optimizations.
 <div class="ui medium rounded images">
@@ -164,7 +164,7 @@ Looking at the after report, we can see there are no __fmodf samples.
 *	Initial program run time: 694.875962 ms
 *	Program run time of optimized code: 510.166922 ms
 
-## Replace SWITCH in cos_52 with IF ELSE
+### Replace SWITCH in cos_52 with IF ELSE
 
 Perf report and annotate before applying optimizations.
 <div class="ui medium rounded images">
@@ -190,7 +190,7 @@ The sample count of cos_52 reduced drastically.
 * Initial program run time: 510.166922 ms
 * Program run time of optimized code: 470.900758 ms
 
-## Change while loop condition to <code>i < NUM_OF_WAYPOINTS</code>
+### Change while loop condition to <code>i < NUM_OF_WAYPOINTS</code>
 
 Perf report before applying optimizations.
 <div class="ui medium rounded images">
@@ -208,6 +208,6 @@ Perf report after applying optimizations.
 *	Initial program run time: 470.900758 ms
 *	Program run time of optimized code: 388.821369 ms
 
-## Change compiler flag to -O3 and remove -ggdb
+### Change compiler flag to -O3 and remove -ggdb
 * Initial program run time: 388.821369 ms
 * Program run time of optimized code: 242.054610 ms (2.420 μs per test)
