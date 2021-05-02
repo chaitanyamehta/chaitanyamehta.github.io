@@ -4,8 +4,8 @@
     "label": "Graduate Student",
     "picture": "/images/chaitanya.jpg",
     "cover": "/images/cover.jpg",
-    "email": "cmehta@ncsu.edu",
-    "phone": "919-771-4388",
+    "_email": "",
+    "_phone": "",
     "website": "https://chaitanyamehta.github.io",
     "summary": "I am studying for an M.S. in computer engineering at NC State University, and have four years of experience as a software developer.",
     "location": {
