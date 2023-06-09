@@ -7,7 +7,7 @@ See the quick start guide for instructions on how to tailor the template to your
 
 ## Running locally
 
-Prerequisites: Install ruby,ruby-devel and rubygem-bundler using package manager.
+Pre-requisites: Install ruby, ruby-devel/ruby-dev and rubygem-bundler using package manager.
 
 ```
 bundle install
