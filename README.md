@@ -5,3 +5,11 @@ This repository hosts a technical portfolio built using [TechFolio](http://techf
 See the quick start guide for instructions on how to tailor the template to your own needs.
 
 
+## Running locally
+
+Prerequisites: Install ruby,ruby-devel and rubygem-bundler using package manager.
+
+```
+bundle install
+bundle exec jekyll serve
+```
