@@ -11,7 +11,6 @@ labels:
   - Raspberry Pi
   - Linux
 summary: Compared runtime of N-body gravitational simulator (5,000,000 iterations) when implemented in different programming languages.
-published: false
 ---
 
 Compared runtime of N-body (gravitational interaction of planets) benchmark implemented in different programming languages (C/C++, C++11, Haskell, Python, Java). All the benchmarks use five million iterations of same algorithm and differ only in terms of the language used to write the program. 
